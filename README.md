@@ -15,4 +15,10 @@ This game was made on the [Keil MCB1700 board](http://www.keil.com/mcb1700), usi
 
 ## Software and Tasks
 
-The game uses _tasks_ to split various functionalities of the game. Some examples include a task that polls for the joystick input, while another task updates the scoreboard and other text on the screen. In addition, _semaphores_ were used to control access to variables that multiple tasks were dependent on.
+The game uses _multithreading_ to split various functionalities of the game. 
+
+__Examples of tasks__
+* Task that polls for the joystick input
+* Another task updates the scoreboard and other text on the screen. 
+
+In addition, _semaphores_ were used to control access to variables that multiple tasks were dependent on.
